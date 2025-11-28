@@ -1,61 +1,42 @@
-# Aim:
-To measure energy using Single Phase Energy Meter
+Aim :
+Three phase power measurement by two wattmeter method.
 
-## Procedure:
-Step 1: Make Connections as per the instructions given below:
+Procedure
+BALANCED LOAD :
 
-S1 of MCB - A1 of Ammeter and A2 of Ammeter - V1 of Voltmeter
-V1 of Voltmeter - Mw of Wattmeter and Mw of Wattmeter - C of Wattmeter
-S2 of MCB - V of Wattmeter and V of Wattmeter - N1 of Energy Meter
-N2 of Energy Meter - L2 of Load and Le of Energy Meter - L1 of Load
-L of Wattmeter - M of Energy Meter and S2 of MCB - V2 of Voltmeter
-NOTE : If wire is wrongly connected, Click on node number to detach the wire.
+1.Set the 3Phase (Line to Line) voltage 100 V at frequency = 50Hz.
 
-Step 2: Click on   CHECK  button for checking the connections.
+2.Set the balanced load value.
 
-Step 3: Click on the mcb off MCB to Turn ON mcb on the supply.
+3.Switch on the supply to get the meter readings and click on "Fill the Table" button to update the observation table.
 
-Step 4: Select the number of Bulbs from the Lamp Load.
+4.Compare calculated power (WC) with the measured power (WM) for each observation.
 
-Step 5: Count the number of times Green LED blinks in 1 min (Meter Counter) by using 'Stopwatch'.
+5.Then change the balanced load value to take another observation. N.B.: Click on the fuse indicator to repair it, if it got fused.
 
-Step 6: Enter the number of times Green LED blinks in 1 min (Meter Counter).
+UNBALANCED LOAD :
 
-Step 7: Click on   ADD  button to add the readings to the Observation Table.
+Procedure:
+1.Set the 3Phase (Line to Line) voltage to 100 V at frequency =50Hz.
+2.Set different values for R1, R2 and R3.
+3.Switch on the supply to get the meter readings and click on "Fill the Table" button to update the observation table.
+4.Compare calculated power (WC) with the measured power (WM) for each observation.
+5.Change the values of R1, R2 and R3 to take another observation. N.B.: Click on the fuse indicator to repair it, if it got fused.
+Circuit Diagram :
 
-Step 8: Add different readings to the table by selecting different number of bulbs.
+BALANCED LOAD:
+<img width="1137" height="540" alt="image" src="https://github.com/user-attachments/assets/c9fd4407-d8ac-4429-b839-193adae74185" />
 
-Step 9: Click on   PRINT  button to print the webpage.
+UNBALANCED LOAD:
+<img width="1119" height="572" alt="image" src="https://github.com/user-attachments/assets/fd9b6fa6-5534-4839-b138-5c0e6a4efd77" />
 
-Step 10: Click on   RESET  button to refresh the webpage.
+Output Tabulation:
 
-## FORMULA
-Actual Energy (A) = 
-V*I*T /1000     kw-hr
+BALANCED LOAD:
+<img width="1432" height="290" alt="image" src="https://github.com/user-attachments/assets/ee0531ac-3877-48d1-94b4-da160f47596b" />
 
-Recorded Energy (R) = Number of Impulse (1min)/Meter Constant
+UNBALANCED LOAD:
+<img width="1434" height="293" alt="image" src="https://github.com/user-attachments/assets/22382b5b-8ab9-4321-87c4-4050d81f1a0c" />
 
-Meter Constant = 3200 Imp/kw-hr
-
-Relative Error = 
-R−A /A *100%
-
-Enter the no. of times Green LED blinks in 1min(Meter Counter):  
-
-## Circuit Connection Diagram with Tabulation 
-
-<img width="1103" height="478" alt="image" src="https://github.com/user-attachments/assets/5ff90202-b4f0-4469-875e-1ab888ab7ba6" />
-
-## Output Waveform
-
-
-
-
-## Result
-
-
-
-
-
-
-
+Result:
+Thus Three phase power measurement by two wattmeter method is Verfied.
